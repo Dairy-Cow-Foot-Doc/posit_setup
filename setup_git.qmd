@@ -12,17 +12,34 @@ eval: false
 
 # Supported by
 
-![](www/EXT_Logo.png){width="289"}
+| ![](www/EXT_Logo.png){width="150"} ![](www/LVR.png){fig-align="left"
+  width="150"} ![](images/logo%20no%20background.png){width="150"}
 
-![](www/LVR.png){fig-align="left" width="248"}
+# Check Access to Posit Academy Campsite
+
+-   [Posit Course Campsite](https://app.posit.academy/dashboard)
+
+This website will have the weekly activities for the course. For the
+milestones we will use a repository on GitHub that is dairy specific.
 
 # Install R and R Studio
 
-1.  Download R and R Tools
+Links for Windows computers
 
-2.  Download R Studio
+1.  Download
+    [R](https://cran.rstudio.com/bin/windows/base/R-4.5.1-win.exe) and
+    [R
+    Tools](https://cran.rstudio.com/bin/windows/Rtools/rtools45/files/rtools45-6608-6492.exe)
+
+2.  Download [R
+    Studio](https://download1.rstudio.org/electron/windows/RStudio-2025.09.1-401.exe)
 
 # Setting up Github
+
+We will use Github to access and share materials in the course. GitHub
+is a version control method that allows you to not have to rename files
+to keep track of changes. It requires a few steps to set up but is worth
+the effort as it will allow you to go back in time and undo mistakes.
 
 ## Further Resources
 
@@ -34,17 +51,21 @@ Outlines the process in more details
 
 -   <https://happygitwithr.com/>
 
-1.  Install Git for Windows
+## Install Git for Windows
+
+Required to make GitHub work
 
 -   <https://github.com/git-for-windows/git/releases/tag/v2.49.0.windows.1>
 
 or Mac
 
-2.  Install Github Desktop
+## Install Github Desktop
 
 -   <https://github.com/apps/desktop>
 
-Install and load packages to set up git
+# Set up Git and GitHub in R Studio
+
+1.  Open R Studio and install and load packages to set up git
 
 ```{r}
 
@@ -52,27 +73,46 @@ if (!require("usethis")) install.packages("usethis")
 library(usethis)
 ```
 
-Tell Git who you are
+2.  Tell Git who you are
 
-enter your user.name and user.email information
+    -   enter your user.name and user.email information
 
 ```{r}
 use_git_config(user.name = "enter_your_user_name",
                user.email = "enter_your_email.com")
 ```
 
-Get PAT,
+3.  Get PAT (Personal Access Token)
 
-Go to the bottom of the screen that show up and press generate
+    -   Go to the bottom of the screen that show up and press generate
 
-Then copy the PAT
+    -   Then copy the PAT
 
 ```{r}
 usethis::create_github_token()
 ```
 
-register git using the PAT from Above
+4.  register git using the PAT from Above
 
 ```{r}
 gitcreds::gitcreds_set()
 ```
+
+# Clone the repository for this course to your computer
+
+1.  Go to repo and find your branch
+
+2.  Select code and copy
+
+3.  Open R Studio and select new project
+
+4.  Select Version Control
+
+5.  Select Git
+
+6.  Enter the url
+
+    1.  Usually it will work best if you put the folder with your git
+        repos in a non cloud based folder on our computer.
+
+        1.  I have use C:\\GitHub as my top level folder.
