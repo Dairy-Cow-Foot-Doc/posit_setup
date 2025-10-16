@@ -1,27 +1,48 @@
 ---
-title: "Setting Up Github"
-format: html
+title: "Preparation Materials for Posit Course"
+author: "Gerard Cramer and Nora Shrag"
+format: 
+ html:
+   embed-resources: true
+   toc: true
+   toc-location: left
 editor: visual
 eval: false
 ---
 
-Further Resources
+# Supported by
 
-<https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r>
+![](www/EXT_Logo.png){width="289"}
 
-or
+![](www/LVR.png){fig-align="left" width="248"}
 
-<https://happygitwithr.com/>
+# Install R and R Studio
 
-Install Git for Windows
+1.  Download R and R Tools
 
-<https://github.com/git-for-windows/git/releases/tag/v2.49.0.windows.1>
+2.  Download R Studio
+
+# Setting up Github
+
+## Further Resources
+
+Outlines the process in more details
+
+-   <https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r>
+
+    or
+
+-   <https://happygitwithr.com/>
+
+1.  Install Git for Windows
+
+-   <https://github.com/git-for-windows/git/releases/tag/v2.49.0.windows.1>
 
 or Mac
 
-Install Github Desktop
+2.  Install Github Desktop
 
-<https://github.com/apps/desktop>
+-   <https://github.com/apps/desktop>
 
 Install and load packages to set up git
 
