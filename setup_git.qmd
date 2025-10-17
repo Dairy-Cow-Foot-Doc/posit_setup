@@ -13,7 +13,7 @@ eval: false
 # Supported by
 
 | ![](www/EXT_Logo.png){width="150"} ![](www/LVR.png){fig-align="left"
-  width="150"} ![](images/logo%20no%20background.png){width="150"}
+  width="150"} ![](images/logo%20no%20background.png){width="150"}![](images/iowa-state-university-logo-no-tagline-red.svg)
 
 # Check Access to Posit Academy Campsite
 
@@ -134,7 +134,7 @@ stuck on a piece of code etc.
 will do this together get if you get stuck on our first meeting on
 Wednesday or we can set up a time later in the week.***
 
-# Clone the repository for this course to your computer 
+# Clone the repository for this course to your computer
 
 1.  Go to
     [repo](https://github.com/LivestockVeterinaryResources/2025_fall_posit_course/tree/main)
@@ -142,13 +142,13 @@ Wednesday or we can set up a time later in the week.***
 
 2.  Select code and copy the HTTPS
 
-    ![](images/github copy.png){width="383"}
+    ![](images/github%20copy.png){width="383"}
 
 3.  Open R Studio and select new project from File Menu
 
 4.  Select Version Control
 
-![](images/version control.png){width="399"}
+![](images/version%20control.png){width="399"}
 
 1.  Select Git
 
