@@ -34,12 +34,43 @@ Links for Windows computers
 2.  Download [R
     Studio](https://download1.rstudio.org/electron/windows/RStudio-2025.09.1-401.exe)
 
+3.  Change R Studio settings by going into Tools and Global options to
+    reflect the images below
+
+    1.  This allows start up without remembering history
+
+![](images/rstudio_basic.png){width="464"}
+
+2.  This sets up to use the new pipe
+
+![](images/rstudio_editing.png){width="472"}
+
+3.  This sets up rainbow parenthesis
+
+![](images/rstudio_rainbow.png){width="479"}
+
 # Setting up Github
 
 We will use Github to access and share materials in the course. GitHub
 is a version control method that allows you to not have to rename files
 to keep track of changes. It requires a few steps to set up but is worth
 the effort as it will allow you to go back in time and undo mistakes.
+
+## Set up a personal GitHub Account
+
+-   [GitHub.com](https://github.com)
+
+## Install Git for Windows
+
+Required to make GitHub work. MACs typically have it installed
+
+-   <https://github.com/git-for-windows/git/releases/tag/v2.49.0.windows.1>
+
+## Install Github Desktop
+
+Usefull to have to solve certain problems
+
+-   <https://github.com/apps/desktop>
 
 ## Further Resources
 
@@ -51,21 +82,12 @@ Outlines the process in more details
 
 -   <https://happygitwithr.com/>
 
-## Install Git for Windows
-
-Required to make GitHub work
-
--   <https://github.com/git-for-windows/git/releases/tag/v2.49.0.windows.1>
-
-or Mac
-
-## Install Github Desktop
-
--   <https://github.com/apps/desktop>
-
 # Set up Git and GitHub in R Studio
 
 1.  Open R Studio and install and load packages to set up git
+
+    *Hover in top right corner of the code box below and you can copy
+    the code without needing to highlight it.*
 
 ```{r}
 
@@ -75,7 +97,8 @@ library(usethis)
 
 2.  Tell Git who you are
 
-    -   enter your user.name and user.email information
+    -   enter your user.name and user.email information that you used to
+        set up your GitHub account above
 
 ```{r}
 use_git_config(user.name = "enter_your_user_name",
@@ -98,21 +121,44 @@ usethis::create_github_token()
 gitcreds::gitcreds_set()
 ```
 
-# Clone the repository for this course to your computer
+# Set up Slack
 
-1.  Go to repo and find your branch
+We will use Slack to communicate as a group. You will get an invite to
+the email you used to register in the course. The benefit of Slack is
+that we can use it to share code easily and ask questions if you are
+stuck on a piece of code etc.
 
-2.  Select code and copy
+-   <https://slack.com/>
 
-3.  Open R Studio and select new project
+***Below is optional and will only work after Monday October 20th. We
+will do this together get if you get stuck on our first meeting on
+Wednesday or we can set up a time later in the week.***
+
+# Clone the repository for this course to your computer 
+
+1.  Go to
+    [repo](https://github.com/LivestockVeterinaryResources/2025_fall_posit_course/tree/main)
+    and find the branch with your name
+
+2.  Select code and copy the HTTPS
+
+    ![](images/github copy.png){width="383"}
+
+3.  Open R Studio and select new project from File Menu
 
 4.  Select Version Control
 
-5.  Select Git
+![](images/version control.png){width="399"}
 
-6.  Enter the url
+1.  Select Git
+
+    ![](images/git.png){width="403"}
+
+2.  Enter the url and click create project
 
     1.  Usually it will work best if you put the folder with your git
         repos in a non cloud based folder on our computer.
 
         1.  I have use C:\\GitHub as my top level folder.
+
+![](images/clipboard-1440960887.png){width="471"}
