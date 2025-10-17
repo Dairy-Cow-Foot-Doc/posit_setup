@@ -129,6 +129,9 @@ that we can use it to share code easily and ask questions if you are
 stuck on a piece of code etc.
 
 -   <https://slack.com/>
+-   [workspace](https://app.slack.com/client/T09M3BYDEKF/C09M0EBENN7?entry_point=workspaces)
+    -   Introduce yourself so we can all get to know you before we meet
+        Wed October 22nd
 
 ***Below is optional and will only work after Monday October 20th. We
 will do this together get if you get stuck on our first meeting on
