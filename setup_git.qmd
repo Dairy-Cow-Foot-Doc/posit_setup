@@ -22,6 +22,11 @@ eval: false
 This website will have the weekly activities for the course. For the
 milestones we will use a repository on GitHub that is dairy specific.
 
+You will be able to start the first week on Monday Oct 22nd. You will
+have 2 weeks to complete the first week and we won't discuss materials
+in the first week until Oct 29th. After that you will have 1 week to
+work on materials with a few breaks during the holidays.
+
 # Install R and R Studio
 
 Links for Windows computers
