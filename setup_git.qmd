@@ -34,6 +34,12 @@ milestone.
 
 # Install R and R Studio
 
+*Note: In the POSIT website you will see you can also use Positron.
+Positron is newer and has benefits but for teaching this course we will
+stick to R Studio as it has less of a learning curve. Feel free to use
+Positron but Nora, Pat and Gerard are still learning it too so can offer
+less support.*
+
 Links for Windows computers
 
 1.  Download
