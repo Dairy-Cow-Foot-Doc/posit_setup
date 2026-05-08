@@ -1,6 +1,6 @@
 ---
 title: "Preparation Materials for Posit Course"
-author: "Gerard Cramer and Nora Shrag"
+author: "Cattle Data Geek Team"
 format: 
  html:
    embed-resources: true
@@ -17,15 +17,20 @@ eval: false
 
 # Check Access to Posit Academy Campsite
 
--   [Posit Course Campsite](https://app.posit.academy/dashboard)
+-   [Posit Course Campsite](https://pub.academy.posit.team/tidyverse/)
 
 This website will have the weekly activities for the course. For the
 milestones we will use a repository on GitHub that is dairy specific.
+The POSIT site has their own milestone materials but we **encourage**
+you to use our example data or even better your own (research or
+production)
 
-You will be able to start the first week on Monday Oct 22nd. You will
-have 2 weeks to complete the first week and we won't discuss materials
-in the first week until Oct 29th. After that you will have 1 week to
-work on materials with a few breaks during the holidays.
+You will be able to start the Posit materials the week o May 11th. You
+will have 2 weeks to complete the first week and we won't discuss
+materials in the first week until May 18th. After that you will have 1
+week to work on materials. There are 6 week of materials. We will do 1
+per week after the first 2 week and than take 2 weeks to do the last
+milestone.
 
 # Install R and R Studio
 
@@ -73,7 +78,7 @@ Required to make GitHub work. MACs typically have it installed
 
 ## Install Github Desktop
 
-Usefull to have to solve certain problems
+Useful to have to solve certain problems
 
 -   <https://github.com/apps/desktop>
 
@@ -126,27 +131,21 @@ usethis::create_github_token()
 gitcreds::gitcreds_set()
 ```
 
-# Set up Slack
+***Below is needed to access the specific milestones we created. Try
+this on your own but we have allocated the first week to do this
+together. If you get stuck come to the first meeting on Monday May 11th
+or Thursday May 14th or we can set up a time to do during that week.***
 
-We will use Slack to communicate as a group. You will get an invite to
-the email you used to register in the course. The benefit of Slack is
-that we can use it to share code easily and ask questions if you are
-stuck on a piece of code etc.
-
--   <https://slack.com/>
--   [workspace](https://app.slack.com/client/T09M3BYDEKF/C09M0EBENN7?entry_point=workspaces)
-    -   Introduce yourself so we can all get to know you before we meet
-        Wed October 22nd
-
-***Below is optional and will only work after Monday October 20th. We
-will do this together get if you get stuck on our first meeting on
-Wednesday or we can set up a time later in the week.***
-
-# Clone the repository for this course to your computer
+# Clone the GIT repository for this course to your computer
 
 1.  Go to
-    [repo](https://github.com/LivestockVeterinaryResources/2025_fall_posit_course/tree/main)
+    [repo](https://github.com/LivestockVeterinaryResources/posit_spring_2026.git)
     and find the branch with your name
+
+    1.  The branch can be found by clicking on the down arrow beside the
+        main word
+
+        ![](images/clipboard-4127800265.png)
 
 2.  Select code and copy the HTTPS
 
