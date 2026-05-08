@@ -32,6 +32,10 @@ week to work on materials. There are 6 week of materials. We will do 1
 per week after the first 2 week and than take 2 weeks to do the last
 milestone.
 
+If you can't access the site, make sure you have a
+[**Posit.cloud**](https://posit.cloud/)account set up with the email you
+used to communicate with us.
+
 # Install R and R Studio
 
 *Note: In the POSIT website you will see you can also use Positron.
